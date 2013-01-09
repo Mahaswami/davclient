@@ -19,6 +19,7 @@ Gem::Specification.new do |s|
   s.rubyforge_project = %q{davclient}
   s.rubygems_version = %q{1.3.5}
   s.summary = %q{Command line WebDAV client and Ruby library.}
+  s.add_dependency 'hpricot', '>= 0.8.6'
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
