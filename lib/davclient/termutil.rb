@@ -1,5 +1,9 @@
 # require 'rubygems'
-require 'termios'
+
+#NOTE termios is failing in Mac OSX Lion.
+#Since this doesn't seem to be used commenting it out. I mean the caller which is for
+# prompting the password is not used. 
+#require 'termios'
 
 # Prompt for password
 # Extracted from Ian Macdonald's Ruby/Password gem.
